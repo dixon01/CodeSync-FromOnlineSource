@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- This is only an example file. For local connections, it can even be deleted. -->
+<BackgroundSystemConfiguration>
+  <NotificationsConnectionString>medi://localhost:1596</NotificationsConnectionString>
+  <ApiHostPort>8080</ApiHostPort>
+<DataServices>
+<Protocol>Tcp</Protocol>
+<Host>localhost</Host>
+</DataServices>
+  <FunctionalServices>
+    <Protocol>Tcp</Protocol>
+    <Host>localhost</Host>
+  </FunctionalServices>
+</BackgroundSystemConfiguration>
